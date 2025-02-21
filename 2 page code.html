@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #777;
+            margin: 0;
+        }
+        .container {
+            width: 375px;
+            height: 812px;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+        }
+        .background {
+            width: 100%;
+            height: 100%;
+            background-image: url('');
+            background-size: cover;
+            background-position: center;
+            filter: brightness(80%);
+        }
+        .content {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #00B0F0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 25px;
+            font-size: 1rem;
+        }
+        .btn {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            border: none;
+            border-radius: 25px;
+            background-color: #fff;
+            color: #000;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="background"></div>
+        <div class="content">
+            <h1>Create Account</h1>
+            <input type="text" placeholder="Name:"><br>
+            <input type="email" placeholder="email id:"><br>
+            <input type="password" placeholder="password:"><br>
+            <input type="password" placeholder="Conform password:"><br>
+            <button class="btn">Log in</button>
+            <p>OR</p>
+            <p>Already Have An Account? <a href="#" style="color: #000;">SIGN IN</a></p>
+        </div>
+    </div>
+</body>
+</html>
