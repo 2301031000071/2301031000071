@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: 000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 430px;
+            padding: 20px;
+            background-color: #d6cfcf;
+            border-radius: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow-y: auto;
+            height: 95vh;
+        }
+
+        .back-arrow {
+            position: absolute;
+            top: 20px;
+            left: 800px;
+            width: 40px;
+            cursor: pointer;
+        }
+
+        img.product-image {
+            width: 200px;
+            border-radius: 20px;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 10px 0;
+            text-align: center;
+        }
+
+        hr {
+            border: 1px solid #8d8a8a;
+            margin: 10px 0;
+        }
+
+        p.description {
+            font-size: 16px;
+            color: #333;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        .footer-icons {
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+
+        .footer-icons img {
+            width: 40px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="back-arrow.png" class="back-arrow" alt="Back">
+
+        <div style="text-align: center;">
+            <img src="foundation.png" class="product-image" alt="Product">
+        </div>
+
+        <h2>Makeup looks better on happy skin!</h2>
+        <hr>
+        <p class="description">
+            Take your makeup to the next level, by giving it the base it deserves. Keep both your skin and your glam game up with
+            Just Herbs’ Serum Foundation with SPF 30+. Glow brighter with this dewy foundation which blends & melts seamlessly
+            into your skin & moves as you do! Its lightweight, serum-like texture reduces the appearance of pores & gives
+            medium to full coverage, which lasts up to 12 hours! Potent skincare actives like Rosehip Oil & Rice Starch boost
+            skin health, making it look luminous & snatched!<br>
+            <strong>1615 people are viewing this product.</strong>
+        </p>
+
+        <div class="footer-icons">
+            <img src="home.png" alt="Home">
+            <img src="dislike.png" alt="Dislike">
+            <img src="share.png" alt="Share">
+        </div>
+    </div>
+</body>
+</html>
